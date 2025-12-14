@@ -1,0 +1,8 @@
+build/
+
+*.so
+*.egg-info
+*.pyc
+.coverage
+.coveragerc
+coverage.xml
