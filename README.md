@@ -38,7 +38,7 @@ pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https
 # Install flash-attn
 pip install packaging
 pip install ninja
-pip instal bsutil
+pip install psutil
 git clone https://github.com/Dao-AILab/flash-attention.git
 cd flash-attention
 git checkout v2.5.8
@@ -64,8 +64,7 @@ git clone https://github.com/NVIDIA/TransformerEngine.git
 cd TransformerEngine
 git checkout 7f2afaa
 git submodule update --init --recursive
-export NVTE_FRAMEWORK=pytorch
-pip install --no-build-isolation .
+NVTE_FRAMEWORK=pytorch pip install --no-build-isolation .
 # or use wheel
 ```
 
