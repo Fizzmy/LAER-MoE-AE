@@ -86,6 +86,7 @@ Users can also run the planner.sh with no arguments to get the average time for 
 To analysis these data and plot figures presented in the paper, we also provide `plot.sh` script to plot the corresponding figure. For example, to plot Figure 8/9, we use the following command:
 
 ```
+pip install pandas matplotlib
 bash scripts_ae/plot.sh <figure_id> <type>
 ```
 

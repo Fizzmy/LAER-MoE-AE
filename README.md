@@ -71,7 +71,7 @@ NVTE_FRAMEWORK=pytorch pip install --no-build-isolation .
 Finally, install laer-moe:
 
 ```
-cd laer-moe
+cd LAER-MoE
 pip install -r requirements.txt
 pip install -e . --no-build-isolation
 ```
@@ -82,6 +82,7 @@ We placed the processed dataset in the `datasets/processed` directory and the ra
 ```
 # for wikitext
 cd Megatron
+mkdir -p ../datasets/processed/wikitext
 python tools/preprocess_data.py \
        --input "../datasets/raw/wikitext/wikitext.json" \
        --partitions 1 \
@@ -92,6 +93,7 @@ python tools/preprocess_data.py \
        --append-eod
 # for C4
 cd Megatron
+mkdir -p ../datasets/processed/C4
 python tools/preprocess_data.py \
        --input "../datasets/raw/C4/c4-train*" \
        --partitions 5 \
