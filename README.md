@@ -6,7 +6,7 @@ This repo contains the actifact of paper "LAER-MoE: Load-Adaptive Expert Re-layo
 
 ### Hardware dependencies
 
-We conduct our experiments on a 4-node GPU cluster, with each node containing 8 NVIDIA A100 80GB GPUs. Within nodes, GPUs within a node are connected via NVLink, and nodes are interconnected via Infiniband. The peak unidirectional communication bandwidth intra-node is 450 GB/s, and inter-node is 800 Gbps.
+We conduct our experiments on a 4-node GPU cluster, with each node containing 8 NVIDIA A100 80GB GPUs. Within nodes, GPUs within a node are connected via NVLink, and nodes are interconnected via Infiniband. The peak unidirectional communication bandwidth intra-node is 300 GB/s, and inter-node is 800 Gbps.
 
 ### Software dependencies
 
