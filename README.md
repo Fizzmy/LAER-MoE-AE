@@ -1,6 +1,6 @@
 # LAER-MoE Artifact
 
-This repo contains the actifact of paper "LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training", including codes and scripts for reproducing all experiments in the paper.
+This repo contains the actifact of paper ["LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training"](https://arxiv.org/pdf/2602.11686), including codes and scripts for reproducing all experiments in the paper.
 
 ## Requirements
 
